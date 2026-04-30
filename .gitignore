@@ -1,0 +1,28 @@
+# Airflow
+logs/
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# Environment variables (IMPORTANT)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# dbt (si jamais tu ajoutes plus tard)
+target/
+dbt_packages/
